@@ -1,0 +1,69 @@
+$color_orange: #F7A278
+$color_green: #C8E9A0
+$color_brown: #351E29
+$color_light_blu: #C9FBFF
+$color_dark_blu: #6DD3CE
+*
+  // border: 4px solid #000
+
+html, body
+  margin: 0px
+  padding: 0px
+ 
+.score
+  height: 30px
+  padding: 5px
+  // background-color: #666
+  border: 4px solid #000
+  font-size: 25px
+  position: absolute
+  width: 390px
+  top: -50px
+  left: -4px
+  color: $color_orange
+  background-color: $color_light_blu
+  .now_score
+    display: inline-block
+    
+    
+  
+.playground
+  padding: 0px
+  border: 4px solid #000
+  position: fixed
+  left: 50%
+  top: 50%
+  width: 400px
+  height: 400px
+  transform: translate(-50%, -50%)
+
+.pixel
+  width: 10px
+  height: 10px
+  background-color: $color_light_blu
+  float: left
+.taken
+  background-color: $color_green
+  
+.msg
+  width: 100%
+  height: 200px
+  position: absolute
+  top: 100px
+
+.msg-a, .msg-b 
+  text-align: center
+  color: $color_orange
+  font-family: sans-serif
+  font-weight: bold
+  /*text-shadow: 4px 2px $color_orange*/
+
+.msg-a   
+  height: 140px
+  line-height: 140px
+  font-size: 70px
+
+.msg-b 
+  height: 60px
+  line-height: 60px
+  font-size: 30px
